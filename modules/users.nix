@@ -7,7 +7,10 @@
     description = "Cris Lima";
     extraGroups = [ "networkmanager" "wheel" "adbusers" ];
     packages = with pkgs; [
+      #Apps da base faltantes
       kdePackages.kate
+      kdePackages.dragon
+      kdePackages.kamoso
       
       #Navegador
       google-chrome
@@ -21,6 +24,7 @@
       
       #Cominicação
       discord
+      zapzap
       
     ];
   };
