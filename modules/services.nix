@@ -15,7 +15,8 @@
   system.autoUpgrade = {
     enable = true;
     allowReboot = false; 
-    dates = "04:00";          
+    dates = "daily";
+    persistent = true;          
     channel = "https://nixos.org/channels/nixos-25.11";
   };
 }

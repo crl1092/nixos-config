@@ -10,3 +10,4 @@ hardware-configuration.nix
 
 # Ignore NixOS interactive test driver history
 **/.nixos-test-history
+modules/.vscode/settings.json
