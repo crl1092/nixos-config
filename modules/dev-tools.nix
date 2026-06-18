@@ -14,9 +14,9 @@
  gdb
 
  # React native
- nodejs_20
- nodePackages.yarn
- nodePackages.typescript
+ nodejs
+ yarn
+ typescript
  watchman
  
 
@@ -32,7 +32,9 @@
  vscode
  micro
  jetbrains.idea
- 
+
+ #adb 
+ android-tools
 ];
 
  #Config do git 
@@ -48,14 +50,12 @@
    defaultBranch = "main"; 
   };
   core = { 
-   editor = "nano"; 
+   editor = "micro"; 
   };
  };
 };
 
- #adb 
 
- programs.adb.enable = true;
 
  #java
  

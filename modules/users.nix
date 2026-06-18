@@ -1,6 +1,7 @@
 {config,pkgs, ...}: 
 
 {
+ networking.hostName = "Nixos-Dev";	
  #Usuário
  users.users.crist = {
     isNormalUser = true;
@@ -10,8 +11,8 @@
       #Apps da base faltantes
       kdePackages.kate
       kdePackages.dragon
-      kdePackages.kamoso
-      
+      kdePackages.kamoso      
+	  mission-center
       #Navegador
       google-chrome
       
